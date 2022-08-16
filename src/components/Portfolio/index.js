@@ -5,6 +5,7 @@ function Portfolio() {
 
     return(
         <section id="portfolio">
+            <h1>Portfolio</h1>
             <img src={spotifyNow} alt="spotify now" className='img-thumbnail mx-1'/>
             <img src={creativeDishes} alt="creative dishes" className='img-thumbnail mx-1'/>
         </section>
