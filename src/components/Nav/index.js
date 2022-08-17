@@ -18,10 +18,10 @@ function Nav({ currentPage, setCurrentPage}){
                         <a data-testid="contact" href="#contact" className={currentPage === 'Contact' && 'navActive' }onClick={() => setCurrentPage('Contact')}>Contact</a>
                     </li>
                     <li className={`mx-2`}>
-                        <a data-testid="about" href="#portfolio" className={currentPage === 'Portfolio' && 'navActive' } onClick={() => setCurrentPage('Portfolio')}>Portfolio</a>
+                        <a data-testid="portfolio" href="#portfolio"className={currentPage === 'Portfolio' && 'navActive' } onClick={() => setCurrentPage('Portfolio')}>Portfolio</a>
                     </li>
                     <li className={`mx-2`}>
-                        <a data-testid="about" href="#resume" className={currentPage === 'Resume' && 'navActive' } onClick={() => setCurrentPage('Resume')}>Resume</a>
+                        <a data-testid="resume" href="#resume" className={currentPage === 'Resume' && 'navActive' } onClick={() => setCurrentPage('Resume')}>Resume</a>
                     </li>
                 </ul>
             </nav>

@@ -32,8 +32,9 @@ function App() {
              <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
             <main>
                {renderPage()}
+              
             </main>
-            <Footer></Footer>
+             <Footer></Footer>
         </div>
     );
 }
