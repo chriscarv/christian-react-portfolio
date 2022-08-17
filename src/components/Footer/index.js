@@ -6,11 +6,11 @@ import stackover from "../../assets/logos/stack.png"
 function Footer() {
 
     return(
-        <footer className="flex-row">
-            <ul className='flex-row px-1 space-between center'>
-                <img className="f-img-thumbnail" src={github}></img>
-                <img className='f-img-thumbnail' src={linkdin}></img>
-                <img className='f-img-thumbnail' src={stackover}></img>
+        <footer>
+            <ul className='flex-row space-between center'>
+                <img className="f-img-thumbnail" src={github} alt="github logo"></img>
+                <img className='f-img-thumbnail' src={linkdin} alt="linkdin logo"></img>
+                <img className='f-img-thumbnail' src={stackover} alt="stackover flow logo"></img>
             </ul>
         </footer>
     )
