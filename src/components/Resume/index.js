@@ -1,18 +1,39 @@
 import React from "react";
 
 function Resume() {
+  
   return(
   <section>
   <h1>Resume</h1>
   <p>
   Coding skills:
   Frontend development -
-  Html css bootstrap javascript(es6) react <br></br>
-  Backend development -
-  Node express mysql mongodb
-  Git workflow
-  Agile project management
+  </p>
+  <ul>
+    <li>Html</li>
+    <li>Css</li>
+    <li>Bootstrap</li>
+    <li>Javascript(es6)</li>
+    <li>React</li>
+  </ul>
+  <p>
+    Backend development -
+  <ul>
+    <li>Node</li>
+    <li>Express</li>
+    <li>Mysql</li>
+    <li>Mongodb</li> 
+  
+  
+  </ul>
   </p>  
+  <p>Other skills</p>
+  <ul>
+    <li>Git workflow</li>
+    <li>Agile project management</li>
+  </ul>
+
+
   </section>
   )
 }

@@ -5,9 +5,7 @@ function Nav({ currentPage, setCurrentPage}){
     return(
         <header data-testid="header" className="flex-row px-1">
             <h2>
-                <a href="/">
                     <span>Christian Carvajal</span>
-                </a>
             </h2>
             <nav>
                 <ul className='flex-row'>

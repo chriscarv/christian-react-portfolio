@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 
 function App() {
-        const [currentPage, setCurrentPage] = useState("About");
+        const [currentPage, setCurrentPage] = useState('About');
 
         useEffect(() => {
             document.title = currentPage;
@@ -27,6 +27,8 @@ function App() {
 
             }
         }
+
+        
     return (
         <div>
              <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
