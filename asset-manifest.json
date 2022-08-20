@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/christian-react-portfolio/static/css/main.ddcf9dce.css",
-    "main.js": "/christian-react-portfolio/static/js/main.f267eb84.js",
+    "main.js": "/christian-react-portfolio/static/js/main.2162ec6e.js",
     "static/js/787.510e8dec.chunk.js": "/christian-react-portfolio/static/js/787.510e8dec.chunk.js",
     "static/media/spotifynow.jpeg": "/christian-react-portfolio/static/media/spotifynow.c0a2adeb7e2f53caaf47.jpeg",
     "static/media/creativedishes.png": "/christian-react-portfolio/static/media/creativedishes.40d04f1f41722f0e92fe.png",
     "static/media/stack.png": "/christian-react-portfolio/static/media/stack.2b57c63669410bce761f.png",
     "index.html": "/christian-react-portfolio/index.html",
     "main.ddcf9dce.css.map": "/christian-react-portfolio/static/css/main.ddcf9dce.css.map",
-    "main.f267eb84.js.map": "/christian-react-portfolio/static/js/main.f267eb84.js.map",
+    "main.2162ec6e.js.map": "/christian-react-portfolio/static/js/main.2162ec6e.js.map",
     "787.510e8dec.chunk.js.map": "/christian-react-portfolio/static/js/787.510e8dec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ddcf9dce.css",
-    "static/js/main.f267eb84.js"
+    "static/js/main.2162ec6e.js"
   ]
 }
