@@ -11,3 +11,6 @@ A personal portfolio page
 
 ## Screenshot
 ![html](src/assets/images/screenshot.png)
+
+## Deployment
+[Github page](https://chriscarv.github.io/christian-react-portfolio/)
