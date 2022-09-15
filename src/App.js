@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -9,35 +9,28 @@ import Footer from './components/Footer';
 
 
 function App() {
-        const [currentPage, setCurrentPage] = useState('About');
-
-        useEffect(() => {
-            document.title = currentPage;
-        });
-        const renderPage = () => {
-            switch (currentPage) {
-                case "About":
-                    return <About />;
-                case "Portfolio":
-                    return <Portfolio />;
-                case "Contact":
-                    return <ContactForm />;
-                case "Resume":
-                    return <Resume />;
-
-            }
+        let component
+        switch (window.location.pathname) {
+            case "/":
+                component = <About />
+                break
+            case "/portfolio":
+                component = <Portfolio />
+                break
+            case "/resume":
+                component = <Resume />
+                break
+            case "/contact":
+                component = <ContactForm />
         }
 
         
     return (
-        <div>
-             <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
-            <main>
-               {renderPage()}
-              
-            </main>
-             <Footer></Footer>
-        </div>
+        <>
+        <Nav />
+        {component}
+        <Footer />
+        </>
     );
 }
 
