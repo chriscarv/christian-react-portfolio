@@ -1,7 +1,6 @@
-import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import React from 'react';
 
-function Nav({ currentPage, setCurrentPage}){
+function Nav(){
     return(
         <header data-testid="header" className="flex-row px-1">
             <h2>
@@ -10,16 +9,16 @@ function Nav({ currentPage, setCurrentPage}){
             <nav>
                 <ul className='flex-row'>
                     <li className='mx-2'>
-                        <a data-testid="about" href="#about" className={currentPage === 'About' && 'navActive' } onClick={() => setCurrentPage('About')}>About Me</a>
+                        <a data-testid="about" href="/about">About Me</a>
                     </li>
                     <li className={`mx-2`}>
-                        <a data-testid="contact" href="#contact" className={currentPage === 'Contact' && 'navActive' }onClick={() => setCurrentPage('Contact')}>Contact</a>
+                        <a data-testid="contact" href="/contact" >Contact</a>
                     </li>
                     <li className={`mx-2`}>
-                        <a data-testid="portfolio" href="#portfolio"className={currentPage === 'Portfolio' && 'navActive' } onClick={() => setCurrentPage('Portfolio')}>Portfolio</a>
+                        <a data-testid="portfolio" href="/portfolio" >Portfolio</a>
                     </li>
                     <li className={`mx-2`}>
-                        <a data-testid="resume" href="#resume" className={currentPage === 'Resume' && 'navActive' } onClick={() => setCurrentPage('Resume')}>Resume</a>
+                        <a data-testid="resume" href="/resume" >Resume</a>
                     </li>
                 </ul>
             </nav>

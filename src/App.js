@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 function App() {
         let component
         switch (window.location.pathname) {
-            case "/":
+            case "/about":
                 component = <About />
                 break
             case "/portfolio":
