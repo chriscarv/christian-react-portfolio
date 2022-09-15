@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/christian-react-portfolio/static/css/main.ddcf9dce.css",
-    "main.js": "/christian-react-portfolio/static/js/main.bfc7aec5.js",
+    "main.js": "/christian-react-portfolio/static/js/main.4d4d370a.js",
     "static/js/787.510e8dec.chunk.js": "/christian-react-portfolio/static/js/787.510e8dec.chunk.js",
     "static/media/spotifynow.jpeg": "/christian-react-portfolio/static/media/spotifynow.c0a2adeb7e2f53caaf47.jpeg",
     "static/media/ticketless.png": "/christian-react-portfolio/static/media/ticketless.d5e5e62796e6b2bd4c22.png",
@@ -9,11 +9,11 @@
     "static/media/stack.png": "/christian-react-portfolio/static/media/stack.2b57c63669410bce761f.png",
     "index.html": "/christian-react-portfolio/index.html",
     "main.ddcf9dce.css.map": "/christian-react-portfolio/static/css/main.ddcf9dce.css.map",
-    "main.bfc7aec5.js.map": "/christian-react-portfolio/static/js/main.bfc7aec5.js.map",
+    "main.4d4d370a.js.map": "/christian-react-portfolio/static/js/main.4d4d370a.js.map",
     "787.510e8dec.chunk.js.map": "/christian-react-portfolio/static/js/787.510e8dec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ddcf9dce.css",
-    "static/js/main.bfc7aec5.js"
+    "static/js/main.4d4d370a.js"
   ]
 }
